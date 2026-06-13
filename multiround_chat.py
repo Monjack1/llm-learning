@@ -38,7 +38,7 @@ def ask(temperature=None,max_tokens=None):
             {"role":"assistant","content":answer}
         )
 
-ask()
+ask() 
              
             
 
