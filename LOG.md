@@ -18,3 +18,4 @@
 - commit 说明用了中文引号，终端卡在 dquote（Ctrl+C 脱身，引号要用英文半角）
 
 明天 Day 2：流式输出 + function calling
+     
