@@ -32,7 +32,9 @@ class ChatRequest(BaseModel):
 def chat(msg: Message):        # 参数类型标成 Message，FastAPI 就知道这是请求体
     return {"你发的角色": msg.role, "你发的内容": msg.content}
 
-
+@app.get("/health")
+def get_health():
+    return {"status":"ok"}
 
 @app.post("/v1/echo")
 def request(req:ChatRequest):
